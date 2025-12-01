@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', serif;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header stuff */
+header {
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(245, 219, 74, 0.158);
+    position: relative;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo-image {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 24.5%;
+    text-align: center;
+    margin-top: 3.9%;
+}
+
+ /*added elements to change fixation and location of the gifs. */
+    
+/* Elden Ring gif 1 location */
+.gif-container {
+    text-align: right;
+    margin-right: 62.80%;
+}
+
+/* Border positon for 1 */
+.frameoverlay1 {
+    position: absolute;
+    text-align: right;
+    left: 10.1px;
+    box-shadow: 0 0 20.5px rgba(72, 121, 212, 0.3);
+}
+
+/* Elden Ring gif 2 location */
+.gif-container2 {
+    text-align: right;
+    margin-right: 0.80%;
+}
+
+/* Border positon for 2 */
+.frameoverlay2 {
+    position: absolute;
+    text-align: right;
+    right: 13.6px;
+    box-shadow: 0 0 20.5px rgba(72, 121, 212, 0.3);
+}
+
+/*Design detail leaf 1*/
+.leafdesign {
+    position: absolute;
+    text-align: center;
+    left: 13.1%;
+    margin-top: -72px;
+}
+/*Design detail leaf 2*/
+.leafdesign2 {
+    position: absolute;
+    text-align: center;
+    right: 13.1%;
+    margin-top: -1px;
+}
+
+
+/* Buy now section thingy */
+
+.buy-now h2{
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    margin-left: 45%;
+}
+
+.buy-now h1{
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    margin-left: 39%;
+}
+
+.steam-option {
+    margin-top: 2%;
+    margin-left: 39%;
+}
+
+.playstation-option {
+    margin-top: -6%;
+    margin-left: 47%;
+    position: static;
+}
+
+.xbox-option {
+    margin-top: -6%;
+    margin-left: 56%;
+    position: static;
+}
+
+
+ /* Nav Elements start here */
+nav ul {
+    display: flex;
+    position: absolute;
+    margin-top: -200px;
+    left: 15%;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+nav ul li a:hover {
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 10px rgba(145, 113, 9, 0.3);
+}
+
+.trailerbox-and-awards {
+    margin-left: 100px;
+    text-align: right;
+    right: 10%;
+    margin: 100px;
+}
+
+.trailer-box {
+    margin-left: 500px;
+    text-align: right;
+    right: 10%;
+}
+
+.trailer-box h1 {
+    text-align: center;
+    margin-left: 770px;
+    text-transform: uppercase;
+    /* text-decoration: underline;*/
+    color: rgb(199, 197, 187);
+}
+
+.awards {
+    height: 5%;
+    width: 20%;
+    position: absolute;
+    text-align: right; 
+    left: 50px;
+    margin-top: 195px;    
+}
+
+.video-background {  /* added a video background from the Elden Ring site.*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3; 
+}
+
+/* Line or section handler */
+section {
+    padding: 80px 0;
+    border-bottom: 5px solid rgba(212, 175, 55, 0.2);
+}
+
+/* Story details section*/
+
+.story-details {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.story-details h2 {
+    font-size: 60px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+    position: relative;
+    display: inline-block;
+}
+
+.story-details h1 {
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+    position: relative;
+    display: inline-block;
+}
+
+.story-details p {
+    font-size: 22px;
+}
+
+.game-descriptionstuff1 p {
+    text-align: center;
+    font-size: 110%;
+    margin-top: -20%;
+    margin-left: 20%;
+    margin-bottom: 27%;
+}
+
+.game-descriptionstuff2 p {
+    text-align: center;
+    font-size: 110%;
+    margin-top: -20%;
+    margin-left: -40%;
+    margin-bottom: 27%;
+}
+
+
+/* Information area is all here */
+
+.information-box {
+    background: rgba(20, 20, 20, 0.7);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.information-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-color: rgba(212, 175, 55, 0.5);
+}
+
+.information-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.information-box p {
+    color: #c0c0c0;
+    line-height: 1.6;
+}
+
+/* Characters box is all under this text */
+
+.characters-info {
+    padding: 30px;
+    text-align: center;
+    margin-top: -4.5%;
+}
+
+/* .characters-info:hover { <=== no need for it atm
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-color: rgba(212, 175, 55, 0.5);
+} */
+
+.characters-info h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.characters-info p {
+    color: #c0c0c0;
+    line-height: 1.6;
+}
+
+
+/* Footer */
+footer {
+    padding: 40px 0;
+    text-align: center;
+    color: #c0c0c0;
+}
+
+.footer-links {
+    display: flex;
+    position: center;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/* Media stuff */
+@media (max-width: 768px) {
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 10px 0;
+    }
+    
+}
